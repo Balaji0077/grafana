@@ -1652,14 +1652,6 @@ extraObjects: []
 # Alternatively, if you wish to allow secret values to be exposed in the rendered grafana.ini configmap,
 # you can disable this check by setting assertNoLeakedSecrets to false.
 assertNoLeakedSecrets: true
-adminUser: admin
-adminPassword: admin123
 
-service:
-  type: LoadBalancer
-
-persistence:
-  enabled: true
-  size: 1Gi
 
   
